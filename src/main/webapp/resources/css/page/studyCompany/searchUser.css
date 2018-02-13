@@ -1,0 +1,178 @@
+
+/*用户列表*/
+.user-bar{
+    background: #FFF;
+}
+.user-item{
+    padding: 10px 50px;
+    padding-left: 60px;
+    position: relative;
+    display: block;
+}
+.user-item a{
+    color: black;
+}
+.user-item a .phone{
+    color: #999999;
+}
+.user-item .head{
+    position: absolute;
+    left: 10px;
+}
+.user-item .add-bar{
+    display: block;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+}
+.user-item .add-bar img{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    margin-bottom: 5px;
+}
+.user-item:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 60px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #e1e1e1;
+}
+.user-item:last-child:after{
+    height: 0;
+}
+
+.header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background: #F6F9FE;
+}
+.mui-indexed-list-search{
+    background: #FFF;
+    padding: 10px;
+    height: initial !important;
+    border: none !important;
+}
+.mui-indexed-list-search input{
+    background-color: #FFF !important;
+    border: 1px solid #e1e1e1;
+    color: #000;
+    font-size: 12px;
+    border-radius: 4px !important;
+    margin-bottom: 0;
+}
+.mui-input-row.mui-search .mui-icon-clear{
+    top: 16px;
+    right: 10px;
+}
+.mui-search .mui-placeholder .mui-icon{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.mui-search .mui-placeholder{
+    top: 10px;
+    font-size: 12px;
+}
+.mui-indexed-list-search.mui-active:before{
+    font-size: 16px;
+    left:20px;
+    color: #999999;
+    margin-top: -10px;
+}
+
+.search-div{
+    background: #fff;
+    text-align: center;
+}
+.search-div .mui-input-row{
+    height: inherit !important;
+}
+
+.search-div .search-input{
+    display: inline-block;
+    background: #FFF;
+    font-size: 12px;
+    border-radius: 0;
+    border: 1px solid #E1E1E1;
+    padding: 5px;
+    width: 80%;
+    color: #999999;
+}
+.search-div .mui-placeholder span{
+    font-size: 12px;
+}
+.mui-icon-search:before{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.user-size{
+    padding: 10px;
+    color: #000000;
+}
+.user-size span{
+    color: #999999;
+}
+
+.mui-content{
+    padding-top: 95px;
+}
+
+.mui-table-view .mui-media-object {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.head{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover !important;
+}
+.mui-table-view .mui-table-view-cell:after{
+    left: 65px;
+}
+.mui-media-body{
+    color: #000000;
+}
+.name{
+    font-size: 13px;
+}
+.exam-pass{
+    background: #FAC03E;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #FFF;
+    margin-left: 5px;
+}
+.course-name{
+    font-size: 12px;
+    color: #999999;
+}
+.course-hour img{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    margin-bottom: 5px;
+}
+.course-hour{
+    display: block;
+    text-align: center;
+}
+.course-hour p{
+    color: #2E75B5;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+    padding-right: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+    margin-right: 0;
+}

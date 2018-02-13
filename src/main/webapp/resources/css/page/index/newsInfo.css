@@ -1,0 +1,95 @@
+
+.context *{
+	max-width: 100%;
+}
+.news {
+	padding: 10px;
+}
+.news img{
+	max-width: 100%;
+}
+.news-title{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 5px;
+}
+.news-time{
+	color: #999999;
+	font-size: 12px;
+	
+}
+.news-type{
+	color: #999999;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.create-name{
+	color: #2E75B5;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.news-context{
+	margin-top: 10px;
+}
+
+/*详情内容*/
+.content{
+	padding: 10px;
+	background: #FFF;
+}
+.title{
+	font-size: 16px;
+	color: #000000;
+}
+.hint{
+	font-size: 12px;
+	color: #999999;
+	margin: 10px 0;
+}
+.time{
+	margin-right: 10px;
+}
+.source{
+	margin-right: 10px;
+}
+.editor{
+	margin-left: 20px;
+	color: #2e75b6;
+}
+.context{
+
+}
+.share-img{
+	margin-left: 15px;
+}
+.share-img img {
+	width: 14px;
+	margin-right: 10px;
+	position: relative;
+	top: 4px;
+}
+
+/*弹窗title*/
+.popover-title{
+	padding: 0 15px;
+}
+.popover-title div{
+	text-align: center;
+	border-bottom: 0.5px solid #E1E1E1;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+.popover-tab{
+	text-align: center;
+}
+.popover-tab p{
+	font-size: 14px;
+	color: #000000;
+}
+.popover-tab img{
+	width: 40px;
+	margin: 15px 0 5px 0;
+}

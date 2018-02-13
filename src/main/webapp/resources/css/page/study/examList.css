@@ -1,0 +1,341 @@
+
+.swiper-container {
+	width: 100%;
+}
+.swiper-slide, .swiper-container-autoheight .swiper-wrapper {
+	height: 100% !important;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	top: -10px;
+	bottom: inherit;
+	font-size: 12px;
+	color: #999999;
+	padding-right: 15px;
+	text-align: left;
+	padding-left: 20px;
+	z-index: 9;
+}
+.swiper-pagination-current{
+	color: #2E75B5;
+	font-size: 14px;
+}
+
+.mui-table-view:after,
+.mui-table-view:before{
+	height: 0;
+}
+
+/*操作栏*/
+.title-bar{
+	padding: 15px;
+}
+.exam-icon-start{
+	float: left;
+	width: 20px;
+	margin-right: 15px;
+}
+.exam-time{
+	font-size: 14px;
+	color: #000000;
+}
+.exam-icon-bar{
+	text-align: right;
+}
+.exam-icon{
+	float: right;
+	margin-left: 15px;
+	position: relative;
+	padding: 0 5px;
+}
+
+.exam-icon span{
+	padding: 0 5px;
+}
+.exam-icon .font-icon-max{
+	color: #4A494E;
+	font-size: 16px;
+}
+.exam-icon .font-icon-min{
+	font-size: 10px;
+}
+.exam-icon .update-font{
+	position: absolute;
+	background: #FFF;
+	z-index: 99;
+	top: 35px;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+.exam-icon .update-font div{
+	border-top: 1px solid #e1e1e1;
+	padding: 5px;
+	color: #4A494E;
+	text-align: center;
+}
+.update-font-active .update-font{
+	display: block;
+}
+.max-font{
+	font-size: 16px !important;
+}
+.min-font{
+	font-size: 12px !important;
+}
+.exam-icon-font{
+	float: right;
+	margin-left: 15px;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+/*选项标题*/
+.option-bar:after{
+	height: 1px;
+	left: 15px;
+}
+
+.list-title {
+	font-size: 14px;
+	color: #2E75B5;
+
+}
+
+.button-next{
+	float: right;
+	padding: 0px 10px;
+	border-radius: 6px;
+	border: 1px solid #2E75B5;
+	color: #2E75B5;
+}
+
+.button-prev{
+	float: right;
+	padding: 0px 10px;
+	border-radius: 6px;
+	border: 1px solid #2E75B5;
+	color: #2E75B5;
+	margin-right: 10px;
+}
+
+.answer{
+	font-size: 14px;
+	color: #2E75B5;
+	margin-left: 10px;
+}
+
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	white-space: normal;
+}
+.mui-table-view-cell.mui-active{
+	background: inherit;
+}
+
+.topic-title{
+	color: #000000 !important;
+	font-size: 14px;
+	line-height: 25px;
+	text-indent: 2em;
+	display: inline-block;
+}
+
+/*答案选项*/
+.mui-input-row{
+	height: inherit !important;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+	font-size: 22px;
+}
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio]{
+	left: 0;
+	width: 100%;
+}
+.mui-checkbox.mui-left label, .mui-radio.mui-left label{
+	padding-left: 30px;
+	color: #666666;
+	font-size: 14px;
+	padding-top: 9px;
+}
+
+/*弹窗*/
+#picture.mui-popover.mui-popover-action{
+	bottom: inherit;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%) !important;
+	-webkit-transform: translate(-50%, -50%) !important;
+	-moz-transform: translate(-50%, -50%) !important;
+	-os-transform: translate(-50%, -50%) !important;
+}
+#picture .bg-popover{
+	margin: 15px 30px;
+	background: #FFF;
+	padding: 15px;
+	border-radius: 8px;
+}
+#picture .popover-title{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 15px;
+}
+#picture .popover-time{
+	padding: 15px;
+	text-align: center;
+	color: #2E75B5;
+	font-size: 18px;
+}
+#picture .popover-hint{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+}
+
+#picture .popover-btn{
+	padding: 15px;
+}
+
+.return-btn {
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #2E75B5;
+	box-shadow: 0px 2px 6px 0px #2E75B5;
+	background: #2E75B5;
+	width: 120px;
+	text-align: center;
+}
+
+.return-btn:active,
+.return-btn:focus {
+	background: #2E75B5 !important;
+	border-color: #2E75B5 !important;
+}
+
+.yellow-btn{
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #F7C03E;
+	box-shadow: 0px 2px 6px 0px #F7C03E;
+	background: #F7C03E;
+	width: 120px;
+	text-align: center;
+}
+
+.yellow-btn:active,
+.yellow-btn:focus {
+	background: #F7C03E !important;
+	border-color: #F7C03E !important;
+}
+
+/*答题卡弹窗*/
+#answerSheetPicture.mui-popover.mui-popover-action{
+	height: 100%;
+	background: #F6F9FE;
+}
+#answerSheetPicture .title{
+	color: #2E75B5;
+	font-size: 16px;
+	padding: 15px;
+}
+#answerSheetPicture .title i{
+	font-size: 18px;
+	margin-right: 15px;
+	color: #999999;
+}
+#answerSheetPicture .answer-sheet{
+	padding: 15px;
+	padding-top: 0;
+}
+
+#answerSheetPicture .answer-sheet-bg{
+	background: #FFF;
+	border-radius: 8px;
+	position: relative;
+}
+
+#answerSheetPicture .answer-item{
+	float: left;
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	border: 1px solid #E1E1E1;
+	margin-top: -1px;
+	margin-left: -1px;
+	z-index: 1;
+}
+
+#answerSheetPicture .answer-item .sort-num{
+	position: absolute;
+	line-height: 16px;
+	font-size: 12px;
+	font-weight:normal;
+	left:0;
+	top:0;
+	padding: 0 5px;
+	color: #999999;
+	border: 1px solid #E1E1E1;
+	border-radius: 0 0 6px 0;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+
+#answerSheetPicture .answer-item.answer-active{
+	font-size: 16px;
+	font-weight: 600;
+	color: #F7C03E;
+	border-color: #2E75B5;
+	position: relative;
+	z-index: 2;
+}
+#answerSheetPicture .answer-item.answer-active .sort-num{
+	border-color: #2E75B5;
+	background: #2E75B5;
+	color: #FFF;
+}
+
+#answerSheetPicture .mui-scroll{
+	width: 93%;
+}
+.mui-popover .mui-scroll-wrapper{
+	margin: 0;
+	padding: 15px;
+}
+
+/*悬浮底部按钮*/
+.fix-div{
+	padding: 15px;
+	position: fixed;
+	bottom: 30px;
+	width: 100%;
+	height: 50px;
+	z-index: 2;
+}
+
+/*iphone5*/
+@media screen and (max-width:320px) {
+	.comment-bar input {
+		width: 60%;
+	}
+	.return-btn, .yellow-btn{
+		width: 110px;
+	}
+	.face-shade-btn button{
+		width: 100px;
+	}
+	.popover-btn{
+		padding: 15px 0 !important;
+	}
+	.face-shade-btn{
+		padding: 15px 0 !important;
+	}
+}

@@ -1,0 +1,119 @@
+/*list商品排版*/
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+#courseList.mui-table-view .mui-media-object{
+	width: 130px !important;
+	max-width: 130px !important;
+	height: 90px;
+	border-radius: 6px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+	white-space: initial;
+	text-overflow: ellipsis;
+	height: 65px;
+	width: 100%;
+	overflow: hidden;
+}
+.list-title p{
+	color: #000000;
+}
+.list-num{
+	position: relative;
+	bottom: 0px;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -3px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+}
+
+.num-title{
+	position: relative;
+	top: -4px;
+	font-size: 12px;
+}
+.minute{
+	font-size: 12px;
+	color: #999999;
+}
+.minute img{
+	width: 16px;
+	top: 2px;
+	position: relative;
+	bottom: 10px;
+	color: #999999;
+	font-size: 12px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0px;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 0;
+}
+.mui-row{padding-bottom: 0}
+.mui-col-xs-6:nth-child(1n+0){
+	padding: 0;
+}
+.mui-col-xs-6:nth-child(2) .list-num{
+	bottom: 3px;
+}
+.mui-control-item img{
+	width: 18px;
+	position: relative;
+	top: 4px;
+}
+.mui-control-item {
+	padding: 10px;
+	line-height: inherit !important;
+}
+#sliderProgressBar {
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border: none;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+}
+body{
+	overflow: hidden;
+}
+.mui-slider-indicator.mui-segmented-control{
+	background: #fff;
+}
+.mui-slider-item{
+	padding: 10px;
+}
+.user-list{
+	text-align: center;
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.user-head{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.user-list .name{
+	color: #000000;
+	font-size: 13px;
+	margin-top: 5px;
+}

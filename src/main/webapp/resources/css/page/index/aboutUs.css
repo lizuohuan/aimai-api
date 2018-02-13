@@ -1,0 +1,30 @@
+
+html, body{
+	background: #FFF;
+}
+.content{
+	padding: 10px;
+}
+.title{
+	text-align: center;
+	padding: 15px;
+	font-size: 16px;
+	color: #000000;
+}
+.context{
+
+}
+.mui-col-xs-6:nth-child(1n+0) {
+	padding-left: 15px;
+	padding-right: 7.5px;
+	padding-top: 15px;
+}
+
+.mui-col-xs-6:nth-child(2n+0) {
+	padding-left: 7.5px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+.imgName{
+	text-align: center;
+}

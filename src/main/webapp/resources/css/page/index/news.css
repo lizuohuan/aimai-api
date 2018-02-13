@@ -1,0 +1,83 @@
+
+.mui-content{
+	padding-bottom: 0px;
+}
+/*资讯*/
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+	background: #FFF;
+}
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+.mui-table-view .mui-media-object{
+	max-width: 130px;
+	height: 90px;
+	border-radius: 6px;
+	width: 100%;
+}
+.mui-table-view .mui-media-object.mui-pull-left{
+	margin-right: 10px;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.list-time {
+	position: absolute;
+	bottom: 8px;
+}
+.list-time .time{
+	color: #999999;
+	font-size: 14px;
+}
+.collect-num{
+	position: absolute;
+	right: 15px;
+	bottom: 8px;
+}
+.collect-num img{
+	width: 20px !important;
+	height: 20px;
+	position: relative;
+	top: 4px;
+}
+.news-list{
+	padding: 15px;
+}
+.mui-table-view:before, .mui-table-view:after{
+	height: 0;
+}
+
+/*覆盖mui 下拉列表的样式*/
+.mui-table-view{
+	background: inherit;
+}
+.mui-table-view:before,.mui-table-view:after{height: 0px;}
+
+.mui-placeholder span{
+	font-size: 14px;
+}
+.mui-search .mui-placeholder{
+	height: 40px;
+	line-height: 40px;
+}
+input[type=search]{
+	line-height: 40px;
+	height: 40px;
+	font-size: 14px;
+	color: #000000;
+	border-radius: 0px;
+	background: #FFF;
+}
+.mui-search.mui-active:before{
+	color: #000000;
+}
+.mui-input-row.mui-search .mui-icon-clear{
+	top: 10px
+}

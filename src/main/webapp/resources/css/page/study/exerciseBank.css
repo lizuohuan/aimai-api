@@ -1,0 +1,73 @@
+.mui-table-view{
+	margin: 15px;
+	border-radius: 6px;
+}
+.mui-table-view:before,
+.mui-table-view:after{
+	height:0;
+}
+.mui-table-view-cell:after{
+	background-color: #E1E1E1;
+}
+.mui-navigate-right:after, .mui-push-left:after, .mui-push-right:after{
+	font-size: 20px;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 10px !important;
+}
+.list-num{
+	position: relative;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -3px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+}
+
+.num-title{
+	position: relative;
+	top: -4px;
+}
+
+.badge{
+	background: #D0D0CE;
+	padding: 3px 8px;
+	color: #FFF;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.badge.badge-blue{
+	background: #2370B0;
+}
+
+.anewAssessBtn-bar{
+	padding-top: 10px;
+}
+.anewAssessBtn{
+	background: #FFF;
+	padding: 3px 8px;
+	border-radius: 4px;
+	font-size: 12px;
+	border: 1px solid orange;
+	color: orange;
+}
+.mui-table-view .mui-media, .mui-table-view .mui-media-body{
+	overflow: initial;
+}
+
+.errors{
+	margin-left: 20px;
+}
+.errors span{
+	color: #2ac845;
+	margin: 0 5px;
+}

@@ -1,0 +1,15 @@
+.bg-div{
+	background: #fff;
+	width: 100%;
+	padding: 15px;
+	padding-bottom: 10px;
+}
+html, body, .mui-content {
+	height: 100%;
+}
+.mui-textarea{
+	font-size: 12px;
+	margin-bottom: 0;
+	height: 100px;
+	border-radius: 6px;
+}

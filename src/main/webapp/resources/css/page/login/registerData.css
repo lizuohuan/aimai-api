@@ -1,0 +1,40 @@
+.mui-input {
+	color: #000000;
+}
+.camera-icon {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 12px;
+}
+
+.mui-navigate-right:after, .mui-push-right:after{
+	font-size: 24px;
+}
+
+.mui-input-row .mui-input-clear~.mui-icon-clear,
+.mui-input-row .mui-input-password~.mui-icon-eye,
+.mui-input-row .mui-input-speech~.mui-icon-speech {
+	line-height: 30px;
+}
+
+.mui-content-padded {
+	margin-top: 20px !important;
+}
+
+.hint{
+	font-size: 12px;
+	color: #999999;
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+
+/*iphone6*/
+
+@media screen and (max-width:375px) {}
+
+
+/*iphone5*/
+
+@media screen and (max-width:320px) {}

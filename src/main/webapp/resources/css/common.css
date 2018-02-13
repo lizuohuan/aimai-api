@@ -1,0 +1,490 @@
+/**Reset**/
+
+/*隐藏联通流量插入HTML代码*/
+#tlbstoolbar{
+	display: none !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/**阻止移动端长按图片复制行为*/
+	-webkit-touch-callout: none; 
+	/*禁用webkit内核浏览器的文字大小调整功能*/
+	-webkit-text-size-adjust: none; 
+	/*避免点击a标签或者注册了click事件的元素时产生高亮*/
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	/*禁止用户进行复制选择*/
+	-webkit-user-select: none; 
+}
+body .mui-content{display: none}
+html,
+body {
+	font-size: 10px;
+	font-family: "微软雅黑";
+	/*letter-spacing: 1px;*/
+	max-width: 640px !important;
+	margin: 0 auto;
+	-webkit-overflow-scrolling: touch;
+}
+ul,li {list-style: none;}
+a,a:hover {text-decoration: none;outline: none;}
+/*去掉浏览器自带的样式*/
+input,button {border: none;outline: none;font-family: "microsoft yahei";}
+textarea {font-family: "microsoft yahei";resize: none;}
+/*输入框placeholder 的字体颜色*/
+input[type="text"]::-moz-placeholder,input[type="text"]::-webkit-input-placeholder {color: #999999;}
+/*最大宽度不能超过屏幕*/
+img {max-width: 100%;}
+
+.hide{display: none;}
+.show{display: block;}
+.not-data{
+	text-align: center;
+	padding: 50px 0;
+	font-size: 12px;
+	color: #999999;
+	display: none;
+}
+
+.mui-table-view-cell:after,
+.mui-table-view-cell:before{
+	background-color: #E1E1E1;
+}
+.mui-table-view:after,
+.mui-table-view:before{
+	background-color: #E1E1E1;
+}
+
+/*覆盖mui-content 默认的背景颜色*/
+.mui-content,body,html{
+	background: #F6F9FE;
+	height: 100%;
+}
+.mui-backdrop-action.mui-backdrop{
+	background-color: rgba(0,0,0,.6);
+}
+.mui-pull-bottom-pocket{
+	height:50px !important;
+	bottom: 0px;
+}
+
+/*覆盖mui 上拉没有数据样式*/
+.mui-pull-caption{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+/*换行线条*/
+.mui-input-group .mui-input-row:after{
+	background-color: #E1E1E1;
+}
+.mui-input-group .mui-input-row:before{
+	background-color: #E1E1E1;
+}
+
+.mui-input-group:before{
+	background-color: #E1E1E1;
+}
+.mui-input-group:after{
+	background-color: #E1E1E1;
+}
+
+/*覆盖mui 输入框样式*/
+.mui-input-group {
+	margin-top: 0px;
+}
+
+.mui-input-group:first-child {
+	margin-top: 0px;
+}
+
+.mui-input-row {
+	height: 50px !important;
+}
+
+.mui-input {
+	height: 50px !important;
+	font-size: 14px !important;
+}
+.mui-input-group label {
+	line-height: 50px;
+	width: 22%;
+	font-size: 14px;
+	color: #000000;
+	height: 50px;
+	padding: 0;
+	padding-left: 15px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+.mui-input-row label~input,
+.mui-input-row label~select,
+.mui-input-row label~textarea {
+	width: 78%;
+}
+
+.mui-btn {
+	padding: 10px;
+}
+
+/*覆盖mui 弹窗 z-index*/
+.mui-popup-backdrop{
+	z-index: 999;
+}
+
+
+/*项目主色*/
+.color{color: #2E75B5;}
+.bg-color{background-color: #2E75B5;}
+
+/*项目统一预览色*/
+.color-p{color: #999999;}
+
+.mui-content{
+	max-width: 640px;
+	margin: 0 auto;
+	background: #F6F9FE;
+}
+.mui-scroll-wrapper{
+	left:50%;
+	transform: translate(-50%, -0%);
+	-webkit-transform: translate(-50%, -0%);
+	-moz-transform: translate(-50%, -0%);
+	-os-transform: translate(-50%, -0%);
+}
+
+.mui-tab-item .mui-tab-label{
+	font-size: 14px !important;
+}
+/*覆盖mui选中字体颜色*/
+.mui-active{
+	color: #2E75B5 !important;
+}
+
+/**单选框，多选框按钮颜色*/
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+	color: #2E75B5 !important;
+}
+
+/**开关*/
+.mui-switch-blue.mui-active{
+	border: 2px solid #2E75B5;
+	background-color: #2E75B5;
+}
+
+/*覆盖mui toast 弹窗*/
+.mui-popup-title{
+	display: none;
+}
+.mui-popup-text{
+	padding: 15px;
+}
+.mui-popup-button{
+	color: #2E75B5;
+	font-size: 14px;
+}
+.mui-popup-button-bold{
+	color: #555555;
+	font-weight: normal !important;
+}
+.mui-toast-message{
+	background-color: rgba(0, 0, 0, 0.8) !important;
+	color: #fff;
+}
+
+/*公共按钮*/
+.mui-btn-block {
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #2E75B5;
+	box-shadow: 0px 2px 6px 0px #2E75B5;
+	background: #2E75B5;
+}
+
+.mui-btn-block:active,
+.mui-btn-block:focus {
+	background: #2E75B5 !important;
+	border-color: #2E75B5 !important;
+}
+
+/*隐藏 angularjs 花括号*/
+[ng-cloak] {
+	display: none;
+}
+
+/*覆盖列表a标签点击背景颜色*/
+.mui-table-view-cell>a:not(.mui-btn).mui-active{
+	background: inherit;
+}
+
+/*loading--加载*/
+.whiteMask{
+	position: fixed;
+	background: #F2F2F2;
+	width: 100%;
+	height: 100%;
+	z-index: 99997;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	opacity: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.loading-bar{
+	position: absolute;
+	z-index: 99999;
+	border-radius: 6px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.loadingImg img{
+	width: 50px;
+	height: 50px;
+}
+.loading-hint{
+	font-size: 16px;
+	position: relative;
+	top: 3px;
+}
+
+/*自定义遮罩*/
+.alertShade{
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 99997;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	opacity: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+/*底部菜单*/
+.tab-icon img {
+	position: relative;
+	top: 6px;
+	width: 18px;
+	margin-bottom: 8px;
+}
+/**底部导航条*/
+.mui-bar{
+	box-shadow: 0 0 1px rgba(0,0,0,0) !important;
+	border-top: 1px solid #e1e1e1 !important;
+	/*background: url("../img/icon/bottom-bg.png") no-repeat !important;*/
+}
+.tab-bottom{
+	height: 60px;
+	background: #fff;
+	z-index: 999;
+}
+.mui-bar-nav, .tab-bottom{
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+/*自定义遮罩*/
+.whiteMask{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 998;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+}
+.loading-bar{
+	position: absolute;
+	z-index: 999;
+	border-radius: 6px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	text-align: center;
+	background: #FFF;
+	width: 80%;
+	padding: 20px 10px;
+}
+.loading-bar .loadingImg{
+	position: relative;
+	top: -7px;
+}
+.loading-hint{
+	font-size: 12px;
+	color: #999999;
+}
+
+.ball-clip-rotate-multiple {
+	position: relative;
+}
+
+.ball-clip-rotate-multiple> div {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 2px solid #279fcf;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	-webkit-animation: rotate 1s 0s ease-in-out infinite;
+	animation: rotate 1s 0s ease-in-out infinite;
+}
+
+.ball-clip-rotate-multiple> div:last-child {
+	display: inline-block;
+	top: 10px;
+	left: 10px;
+	width: 15px;
+	height: 15px;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	border-color: #279fcf transparent #279fcf transparent;
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+/*警告*/
+.warning{
+	width: 100%;
+	font-size: 14px;
+	color: #999999;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/*loading*/
+.loading-bg{
+	background: #FFF;
+	transition: all 1s;
+	position: fixed;
+	z-index: 999;
+	overflow: hidden;
+	top: 0;left: 0;right: 0; bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.loading-content{
+	transition: all 2s;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+	text-align: center;
+}
+.loading-object{
+	width: 40px;
+	height: 40px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+.loading-context{
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 12px;
+}
+.ball-loading {
+	position: relative;
+}
+
+.ball-loading> div {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 2px solid #FFF;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	-webkit-animation: rotate 1s 0s ease-in-out infinite;
+	animation: rotate 1s 0s ease-in-out infinite;
+}
+
+.ball-loading> div:last-child {
+	display: inline-block;
+	top: 10px;
+	left: 10px;
+	width: 15px;
+	height: 15px;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	border-color: #FFF transparent #FFF transparent;
+	-webkit-animation-direction: reverse;
+	animation-direction: reverse;
+}
+
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+
+/*iphone6*/
+@media screen and (max-width:375px) {
+	
+}
+/*iphone5*/
+@media screen and (max-width:320px) {
+	
+}
+
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s */
+
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+}
+
+
+@media (device-height:667px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 */
+
+}
+
+@media (device-height:736px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone6 Plus */
+
+}

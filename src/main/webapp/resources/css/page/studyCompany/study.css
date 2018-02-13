@@ -1,0 +1,279 @@
+
+.mui-table-view:after, .mui-table-view:before{
+	height: 0;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border: none;
+}
+.mui-content, body, html{
+	overflow: hidden;
+}
+.mui-content{
+	padding-bottom: 60px;
+}
+
+.mui-segmented-control .mui-control-item{
+	line-height: 50px;
+}
+#sliderProgressBar {
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+#pullrefreshCourse .mui-table-view .mui-media-object{
+	max-width: 100px;
+	height: 130px;
+	border-radius: 6px;
+}
+#pullrefreshCourse .mui-table-view{
+	background: inherit;
+}
+#pullrefreshCourse .mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	background: #FFF;
+	margin: 0;
+	border-radius: 6px;
+	padding-bottom: 10px;
+	position: relative;
+}
+#pullrefreshCourse .mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+#pullrefreshCourse .mui-table-view .mui-media, .mui-table-view .mui-media-body{
+	overflow: auto;
+}
+#pullrefreshCourse .mui-table-view-cell:after{
+	height:0;
+}
+.title{
+	font-size: 14px;
+	color: #000000;
+	position: relative;
+	top: 5px;
+}
+.course-info{
+	padding-top: 10px;
+}
+.exercises-bar{
+	color: #999999;
+	font-size: 12px;
+}
+.exercises-bar span:nth-child(1) {
+	margin-right: 10px;
+}
+.exercises-bar span:nth-child(2) {
+	 margin-right: 10px;
+ }
+
+.list-num{
+	position: absolute;
+	bottom: 5px;
+	color: #000000;
+	width: 100%;
+	padding-left: 110px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -5px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+	margin: 0 5px;
+}
+.num-title{
+	position: relative;
+	top: -8px;
+}
+
+
+.list-num2 img {
+	float: left;
+	width: 16px !important;
+}
+
+.list-num2 .num2 {
+	color: #2E75B5;
+}
+
+.num-title2 {
+	margin-left: 5px;
+	color: #999999;
+	font-size: 12px;
+}
+
+.money{
+	font-size: 13px;
+	color: red;
+	margin-top: 5px;
+	margin-bottom: 14px !important;
+}
+.money span{
+	font-size: 16px;
+}
+
+
+/*进度条*/
+.study-progress{
+	width: 100%;height: 6px;
+	background: #fbe49b;
+	border-radius: 4px;
+	margin: 6px 0;
+}
+.study-progress span{
+	display: inline-block;
+	height: 100%;
+	border-radius: 4px;
+	width: 0%;
+	background: -webkit-linear-gradient(left, #7bcff3, #075399);
+	background: -o-linear-gradient(left, #7bcff3, #075399);
+	background: -moz-linear-gradient(left, #7bcff3, #075399); /* Firefox 3.6 - 15 */
+	max-width: 100%;
+}
+.mui-table-view-cell:after{
+	background-color: #E1E1E1;
+}
+
+/*人员列表*/
+.search-div{
+	padding: 10px;
+	background: #fff;
+	text-align: center;
+}
+.search-div .mui-input-row{
+	height: inherit !important;
+}
+
+.search-div .search-input{
+	display: inline-block;
+	background: #FFF;
+	font-size: 12px;
+	border-radius: 0;
+	border: 1px solid #E1E1E1;
+	padding: 5px;
+	width: 80%;
+	color: #999999;
+}
+.search-div .mui-placeholder span{
+	font-size: 12px;
+}
+.mui-icon-search:before{
+	font-size: 15px;
+	margin-right: 5px;
+}
+.user-size{
+	padding: 15px 10px;
+	color: #000000;
+}
+.user-size span{
+	color: #999999;
+}
+.user-size a{
+	color: #2E75B5;
+	float: right;
+}
+.user-size a img{
+	width: 16px !important;
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+}
+#pullrefreshPerson .mui-table-view .mui-media-object{
+	display: inline-block;
+	width: 40px !important;
+	height: 40px !important;
+	border-radius: 50%;
+	background-size: cover !important;
+	background-position: center !important;
+}
+#pullrefreshPerson .mui-table-view .mui-table-view-cell:after{
+	left: 65px;
+}
+.mui-media-body{
+	color: #000000;
+}
+.name{
+	font-size: 13px;
+}
+.exam-pass{
+	background: #FAC03E;
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 2px 6px;
+	color: #FFF;
+	margin-left: 5px;
+}
+.course-name{
+	font-size: 13px;
+}
+.course-name img{
+	float: left;
+	width: 16px !important;
+	position: relative;
+	top: 3px;
+	margin-right: 4px;
+}
+.pass-time{
+	padding-left: 19px;
+	color: #999999;
+	font-size: 12px;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0;
+}
+.course-hour {
+	border-left: 1px solid #e1e1e1;
+	text-align: center;
+}
+.course-hour span{
+	font-size: 18px;
+	color: #2E75B5;
+	margin-right: 5px;
+}
+.course-hour p{
+	color: #999999;
+	font-size: 12px;
+}
+
+
+.mui-media-object{
+	background-size: cover;
+	width: 100px;
+	background-position: center;
+}
+
+.haveLearned{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 70px !important;
+}
+
+/*iphone5*/
+@media screen and (max-width:320px) {
+	.mui-media-object{
+		width: 80px !important;
+		height: 110px !important;
+	}
+	.course-info{
+		padding-top: 8px;
+	}
+	.money{
+		margin-top: 0px;
+		margin-bottom: 3px !important;
+	}
+	.list-num {
+		padding-left: 90px;
+	}
+}

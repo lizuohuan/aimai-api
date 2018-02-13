@@ -1,0 +1,71 @@
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{
+	width: 70%;
+}
+.mui-input-group label{
+	width: 30%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.preview{
+	float: right;
+	width: 70%;
+	padding-right: 15px;
+}
+.head{
+	display: inline-block;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	position: relative;
+	top: 7px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.mui-input-row .mui-input-clear~.mui-icon-clear, .mui-input-row .mui-input-password~.mui-icon-eye, .mui-input-row .mui-input-speech~.mui-icon-speech{
+	top: 16px;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	font-size: 24px;
+}
+.mui-navigate-right{
+	color: #000000;
+}
+
+.shade-hint{
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	opacity: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.shade-hint .shade-bg{
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	z-index: 99;
+	border-radius: 6px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	text-align: center;
+	background: #FFF;
+}
+.shade-hint .shade-bg img{
+	width: 30px;
+	position: relative;
+	top: 10px;
+	margin-right: 15px;
+}

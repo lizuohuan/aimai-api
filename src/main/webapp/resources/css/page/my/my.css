@@ -1,0 +1,105 @@
+
+/*********************************我的**********************************/
+.mui-content{
+	padding-bottom: 65px;
+}
+.head-bar{
+	height: 250px;
+	width: 100%;
+	background: url("../../../img/my/1.png") no-repeat;
+	background-size:100%;
+	position: relative;
+}
+.user-info{
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	transition: opacity .3s ease;
+	text-align: center;
+}
+.head-bar .edit-img{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 20px;
+}
+.border-wai{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 5px solid rgba(255, 255, 255, 0.1);
+	margin: 0 auto;
+}
+.border-wai .border-nei{
+	border: 5px solid rgba(255, 255, 255, 0.5);
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+.border-wai .border-nei .head {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	background-size: cover !important;
+}
+.user-name{
+	font-size: 18px;
+	font-weight: 600;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+.user-signature{
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-top: 10px;
+	text-align: center;
+	width: 180px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*列表菜单*/
+.my-list-menu .mui-input-row{
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+}
+
+.my-list-icon{
+	width: 24px;
+	position: relative;
+	top: 12px;
+}
+.mui-media-body p{
+	padding-left: 10px;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	font-family: "微软雅黑";
+	margin-bottom: 0;
+}
+.mui-navigate-right:after, .mui-push-right:after{
+	font-size: 24px;
+}
+.integral{
+	float: right;
+	color: #2E75B5;
+	right: 20px;
+	position: relative;
+}
+/*iphone5*/
+@media screen and (max-width:320px) {
+	.head-bar {
+		height: 200px;
+	}
+}
+/*********************************我的**********************************/

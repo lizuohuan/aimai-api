@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration debug="false">
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
+    <property name="log_dir" value="../logs/ereal" />
+    <!-- 日志最大的历史 60天 -->
+    <property name="maxHistory" value="60"></property>
+    <!-- 彩色日志 -->
+    <!--<property name="CONSOLE_LOG_PATTERN" value="%date{yyyy-MM-dd HH:mm:ss} | %highlight(%-5level) | %boldYellow(%thread) | %boldGreen(%logger) | %msg%n"/>-->
+
+    <!-- 彩色日志格式 -->
+    <!--<property name="CONSOLE_LOG_PATTERN" value="${CONSOLE_LOG_PATTERN:-%boldGreen(%date{yyyy-MM-dd HH:mm:ss.SSS} [WEB]){faint} %boldGreen(${LOG_LEVEL_PATTERN:-%5p}) %boldGreen(${PID:- }){magenta} %boldGreen(-&#45;&#45;){faint} %boldGreen([%15.15t]){faint} %boldGreen(%-40.40logger{39}){cyan} %boldGreen(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%boldGreen}}" />-->
+    <!--%boldGreen([%thread]) %boldYellow(%logger{15}) -->
+    <property name="CONSOLE_LOG_PATTERN" value="%yellow(%date{yyyy-MM-dd HH:mm:ss.SSS}) %yellow([API]) - %highlight(%-5level) - %green(%logger{36}) - %green(%msg) %n" />
+    <!-- Console 输出设置 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>GBK</charset>
+        </encoder>
+    </appender>
+
+    <!-- 出错日志 appender -->
+    <appender name="ERROR"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>${log_dir}/api-error-log-%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志最大的历史 60天 -->
+            <maxHistory>${maxHistory}</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger -
+                %msg%n</pattern>
+        </encoder>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+
+    <!-- INFO 日志 appender -->
+    <appender name="INFO"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 按天回滚 daily -->
+            <fileNamePattern>${log_dir}/api-info-log-%d{yyyy-MM-dd}.log
+            </fileNamePattern>
+            <!-- 日志最大的历史 60天 -->
+            <maxHistory>${maxHistory}</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger -
+                %msg%n</pattern>
+        </encoder>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+
+    <!--myibatis log configure-->
+    <logger name="com.magic.aimai.business.mapper" level="DEBUG"/>
+
+    <!-- 日志输出级别 -->
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ERROR" />
+        <appender-ref ref="INFO" />
+    </root>
+</configuration>

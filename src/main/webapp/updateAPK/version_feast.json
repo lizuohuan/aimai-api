@@ -1,0 +1,16 @@
+{
+    "apkUrl":"http://7xnfyf.com1.z0.glb.clouddn.com/aimai-28-1.0.0.28-debug.apk",
+    "size":"9.8M",
+	"appName":"安监415",
+	"changeLog":"
+	1.修复外部项目崩溃问题<br/>
+	2.UI界面调整<br/>
+	",
+	"created_at":"2017-08-11",
+	"isForce":0,
+	"isAutoInstall":1,
+	"versionName":"1.0.0.28",
+	"updateTips":"更新",
+	"versionCode":"28",
+	"status":1
+}

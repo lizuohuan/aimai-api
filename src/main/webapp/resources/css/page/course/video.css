@@ -1,0 +1,141 @@
+
+/**视频容器*/
+.video-wrap{
+	background: #14191E;
+	width: 100%;
+	height: 220px;
+	position: relative;
+}
+.video-wrap .video{
+	width: 100%;
+	height: 100%;
+	object-position: 50% 0;
+}
+
+/**进度条*/
+.progress-bar{
+	position: relative;
+	top: 14px;
+}
+/*滑条*/
+.progress-bar .range{
+	position: relative;
+	width: 100%;
+	height: 2px;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	cursor: pointer;
+}
+/*缓冲进度*/
+.progress-bar .buffer-progress{
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background: #2e75b6;
+	border-radius: 5px;
+}
+/*已播放进度*/
+.progress-bar .cash-progress{
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background: #2e75b6;
+	border-radius: 10px;
+}
+/*滑动物*/
+.progress-bar .glider{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #FFF;
+	top: -7px;
+}
+
+/**控制栏*/
+.video-control-bar{
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	background: #000;
+	padding: 0 15px;
+	box-sizing: border-box;
+	/*background:-moz-linear-gradient(top,#600030,#000000);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#600030), to(#000000));*/
+	background: rgba(0, 0, 0, 0);
+}
+.video-control-bar .start-or-end-btn{
+	position: relative;
+	top: 2px;
+	width: 14px;
+	margin-right: 5px;
+}
+.video-control-bar .video-time{
+	color: #E0E0E0;
+	font-size: 12px;
+}
+.video-control-bar .full-screen {
+	position: relative;
+	top: 2px;
+	width: 14px;
+	margin-left: 5px;
+}
+
+.progress-out{
+	padding: 0 70px;
+	padding-right: 40px;
+}
+.theLeft{
+	width: 70px;
+	position: absolute;
+	left: 15px;
+	top: 0;
+}
+.theRight{
+	width: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*视频遮罩*/
+.video-wrap .video-shade{
+	background: rgba(0, 0, 0, 1);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index:1;
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);*/
+}
+.video-shade .video-cover{
+	width: 100%;
+	height: 100%;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+.video-shade .video-loading{
+	width: 60px;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	transition: opacity .3s ease;
+}

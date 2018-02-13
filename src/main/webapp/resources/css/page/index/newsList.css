@@ -1,0 +1,72 @@
+
+.mui-content, body, html{
+	height: 100%;
+}
+.mui-control-content{
+	/*padding-bottom: 65px;*/
+	height: 100%;
+}
+.mui-control-content .mui-content {
+	padding-bottom: 0 !important;
+}
+
+/*资讯*/
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+.mui-table-view .mui-media-object{
+	max-width: 130px;
+	height: 90px;
+	border-radius: 6px;
+	width: 100%;
+}
+
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+	white-space: initial;
+	text-overflow:ellipsis;
+	height: 70px;
+	width: 100%;
+	overflow:hidden;
+}
+.list-title p{
+	color: #000000;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.list-time {
+	position: absolute;
+	bottom: 10px;
+}
+.list-time .time{
+	color: #999999;
+	font-size: 12px;
+}
+.collect-num{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #999999;
+	font-size: 14px;
+}
+.collect-num img{
+	width: 22px;
+	position: relative;
+	top: 6px;
+	margin-right: 3px;
+}
+
+.mui-table-view:before, .mui-table-view:after{
+	height: 0;
+}
+#informationList{
+	border-radius: 10px;
+}
+/*********************************首页**********************************/

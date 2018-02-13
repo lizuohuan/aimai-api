@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/jdbc
+ 	http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+ 	http://www.springframework.org/schema/aop 
+ 	http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+ 	http://www.springframework.org/schema/task
+ 	http://www.springframework.org/schema/task/spring-task-3.0.xsd">
+
+	<!-- 加载数据源配置文件 -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<!-- 标准配置 -->
+				<value>classpath:/jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 配置数据源 -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${ad.jdbc.driverClassName}" />
+		<property name="url" value="${ad.jdbc.url}" />
+		<property name="username" value="${ad.jdbc.username}" />
+		<property name="password" value="${ad.jdbc.password}" />
+	</bean>
+
+	<!-- transaction manager, use JtaTransactionManager for global tx -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<context:component-scan base-package="com.magic.aimai">
+		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<!-- enable autowire -->
+	<context:annotation-config />
+
+	<!-- enable transaction demarcation with annotations -->
+	<tx:annotation-driven />
+
+	<task:annotation-driven/>
+
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="typeAliasesPackage" value="com.magic.aimai.business.entity" />
+		<property name="mapperLocations" value="classpath:mapper/*.xml"/>
+	</bean>
+
+	<!-- 自动扫描和注册Mapper接口 basePackage是用来指定Mapper接口文件所在的基包， 在这个基包或其所有子包下面的Mapper接口都将被搜索到。
+		多个基包之间可以使用逗号或者分号进行分隔 -->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.magic.aimai.business.mapper" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+	</bean>
+
+
+
+
+
+</beans>

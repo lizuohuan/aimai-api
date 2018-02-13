@@ -1,0 +1,51 @@
+
+.mui-input-group label{
+	width: 100%;
+	font-size: 16px;
+}
+
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+	top: 10px;
+}
+.mui-table-view:before,
+.mui-table-view:after{
+	background-color: #E1E1E1;
+}
+.mui-table-view-cell:after{
+	background-color: #E1E1E1;
+}
+.mui-navigate-right:after, .mui-push-left:after, .mui-push-right:after{
+	font-size: 20px;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+}
+.list-num{
+	position: relative;
+	color: #999999;
+}
+
+.list-num .num{
+	color: #2E75B5;
+}
+
+.num-title{
+	position: relative;
+	top: -4px;
+}
+.badge{
+	background: #2E75B5;
+	padding: 3px 8px;
+	color: #FFF;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.errors{
+	margin-left: 20px;
+}
+.errors span{
+	color: #2ac845;
+	margin: 0 5px;
+}

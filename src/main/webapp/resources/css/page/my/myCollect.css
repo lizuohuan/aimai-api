@@ -1,0 +1,250 @@
+#collectList .mui-table-view:first-child li {
+	margin-top: 0 !important;
+}
+.mui-bar~.mui-content .mui-fullscreen {
+	top: 44px;
+	height: auto;
+}
+
+.mui-pull-top-tips {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -25px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	z-index: 1;
+}
+
+.mui-bar~.mui-pull-top-tips {
+	top: 24px;
+}
+
+.mui-pull-top-wrapper {
+	width: 42px;
+	height: 42px;
+	display: block;
+	text-align: center;
+	background-color: #efeff4;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+	background-clip: padding-box;
+	box-shadow: 0 4px 10px #bbb;
+	overflow: hidden;
+}
+
+.mui-pull-top-tips.mui-transitioning {
+	-webkit-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+.mui-pull-top-tips .mui-pull-loading {
+	/*-webkit-backface-visibility: hidden;
+            -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;*/
+	margin: 0;
+}
+
+.mui-pull-top-wrapper .mui-icon,
+.mui-pull-top-wrapper .mui-spinner {
+	margin-top: 7px;
+}
+
+.mui-pull-top-wrapper .mui-icon.mui-reverse {
+	/*-webkit-transform: rotate(180deg) translateZ(0);*/
+}
+
+.mui-pull-bottom-tips {
+	text-align: center;
+	background-color: #efeff4;
+	font-size: 15px;
+	line-height: 40px;
+	color: #777;
+	margin-top: 10px;
+}
+
+.mui-pull-top-canvas {
+	overflow: hidden;
+	background-color: #fafafa;
+	border-radius: 40px;
+	box-shadow: 0 4px 10px #bbb;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.mui-pull-top-canvas canvas {
+	width: 40px;
+}
+
+/*滑条过度*/
+#sliderProgressBar{
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+
+/*覆盖标题*/
+.mui-segmented-control .mui-control-item{
+	line-height: 50px;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-color: #E1E1E1;
+}
+
+body,html,.mui-content{
+	height: 100%;
+	background: #FFFFFF;
+	padding-bottom: 0;
+}
+.mui-content{
+	background: #F6F9FE;
+	padding-bottom: 60px;
+}
+
+.order-loading{
+	text-align: center;
+}
+.order-loading img{
+	width: 100px !important;
+}
+
+.list-title-stay{
+	font-size: 16px;
+	color: #2E75B5;
+}
+.list-title-ok{
+	font-size: 16px;
+	color: #000000;
+}
+
+/*list商品排版*/
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+.mui-table-view .mui-media-object{
+	max-width: 130px;
+	width: 130px;
+	height: 90px;
+	border-radius: 6px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+	white-space: initial;
+	text-overflow: ellipsis;
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+}
+.list-title p{
+	color: #000000;
+}
+.list-num{
+	position: absolute;
+	bottom: 5px;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -3px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+}
+
+.num-title{
+	position: relative;
+	top: -4px;
+	font-size: 12px;
+}
+
+/*考题排版*/
+#collectList{
+	background: inherit;
+}
+#collectList li {
+	background: #FFF;
+}
+
+
+.topic-type{
+	font-size: 14px;
+	color: #2E75B5;
+}
+.topic-title{
+	color: #000000 !important;
+	font-size: 14px;
+	line-height: 25px;
+}
+.mui-table-view-cell{
+	padding-right: 15px !important;
+}
+.mui-table-view-cell.mui-active{
+	background-color: inherit;
+}
+.topic-answer{
+	color: #999999 !important;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.analysis{
+	margin-bottom: 10px !important;
+}
+.blue-badge{
+	background: #2E75B5;
+	color: #FFF;
+	font-size: 14px;
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+.answer{
+	color: #2E75B5;
+	margin-left: 10px;
+}
+
+.gray-badge{
+	background: #959595;
+	color: #FFF;
+	font-size: 14px;
+	padding: 3px 10px;
+	border-radius: 4px;
+}
+.analysis-context{
+	margin-left: 10px;
+	line-height: 25px;
+}
+
+/*资讯*/
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.list-time {
+	position: absolute;
+	bottom: 10px;
+}
+.list-time .time{
+	color: #999999;
+	font-size: 12px;
+}
+.collect-num{
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	color: #999999;
+}
+.collect-num img{
+	width: 22px !important;
+	position: relative;
+	top: 6px;
+	margin-right: 3px;
+}

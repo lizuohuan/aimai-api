@@ -1,0 +1,360 @@
+
+.collect-icon{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.collect-icon img{
+	width: 30px;
+}
+.collect-info{
+	padding: 0 10px;
+}
+
+.title-bar{
+	background: #FFF;
+	border-radius: 10px;
+	position: relative;
+	top: -30px;
+	width: 100%;
+	padding: 15px;
+}
+.row-left{
+	float: left;
+}
+
+.component{
+	font-size: 12px;
+	color: #999999;
+	font-weight:normal;
+	line-height: 16px !important;
+	margin-top: 5px;
+}
+.row-left:nth-child(1){
+	width: 70%;
+}
+.row-left:nth-child(2){
+	width: 30%;
+	border-left: 1px solid #E1E1E1;
+	height: 60px;
+	color: red;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 10px;
+}
+.row-right{
+	font-weight: normal !important;
+	font-size: 16px !important;
+	color: #2E75B5 !important;
+	height: inherit !important;
+}
+.watch-btn{
+	color: #999999;
+	font-size: 13px;
+	padding: 3px 6px;
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.watch-btn:active, .watch-btn:focus{
+	color: #999999;
+}
+
+
+.course-badge{
+	color: #2E75B5;
+	border: 1px solid #2E75B5;
+	padding: 3px 10px;
+	border-radius: 6px;
+	margin-right: 10px;
+}
+.course-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.list-num {
+	margin-top: 10px;
+	color: #999999;
+}
+
+.list-num img {
+	width: 16px;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	top: 2px;
+}
+
+.mui-slider-item{
+	height: 400px !important;
+}
+.mui-slider-item .mui-scroll-wrapper{
+	padding-bottom: 60px;
+}
+.course-cover{
+	height: 200px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.course-info{
+	padding: 10px;
+	padding-bottom: 0px;
+	position: relative;
+	top: -30px;
+}
+.mui-slider{
+	background: #FFF;
+	border-radius: 10px;
+}
+
+.mui-control-item{
+	padding: 10px;
+	line-height: inherit !important;
+}
+.mui-control-item img{
+	width: 30px;
+	position: relative;
+	top: 4px;
+}
+.mui-control-item span{
+	position: relative;
+	top: -5px;
+	font-size: 14px;
+}
+#sliderProgressBar {
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-color: #E1E1E1;
+	border-bottom: none;
+}
+.mui-slider .mui-slider-group .mui-slider-item{
+	height: inherit;
+}
+.introduce-title{
+	padding: 10px 0;
+}
+
+.introduce-title .perch{
+	display: inline-block;
+	width: 10px;
+	background: #2E75B5;
+	height: 20px;
+}
+.introduce-title .title{
+	position: relative;
+	top: -5px;
+	color:#000000;
+}
+.introduce-context{
+	padding: 0 15px 15px 15px;
+	text-indent: 2em;
+	color: #000000;
+}
+
+/*目录列表*/
+.mui-slider-item .mui-content{
+	background: #FFF;
+	height: inherit;
+}
+.catalogue{
+	color: #000000;
+	position: relative;
+	padding: 10px;
+	padding-bottom: 5px;
+	padding-right: 70px;
+}
+.catalogue-time{
+	position: absolute;
+	right: 10px;
+	color: #999999;
+}
+
+/*评论列表*/
+.mui-table-view-cell{
+	padding: 15px 0;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	margin: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0;
+}
+
+.mui-table-view .mui-media-object{
+	border-radius: 50%;
+	width: 42px;
+	display: inline-block;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.mui-ellipsis{
+	color: #000000;
+}
+.comment-time{
+	color: #999999;
+	font-size: 12px;
+}
+.comment-context{
+	color: #000000;
+}
+#commentList .mui-table-view-cell>a:not(.mui-btn){
+	white-space:inherit;
+}
+.mui-table-view-cell.mui-active{
+	background-color: inherit;
+}
+
+/*悬浮底部按钮*/
+.fix-div{
+	padding: 0 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 2;
+}
+.purchase-btn{
+	padding: 10px 0;
+	background: #FFF;
+}
+.fix-div .mui-btn-block{
+	margin-bottom: 0;
+}
+.yellow-btn{
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #F7C03E;
+	box-shadow: 0px 2px 6px 0px #F7C03E;
+	background: #F7C03E;
+	width: 100%;
+	text-align: center;
+}
+
+.yellow-btn:active,
+.yellow-btn:focus {
+	background: #F7C03E !important;
+	border-color: #F7C03E !important;
+	color: #fff !important;
+}
+
+
+/*弹窗title*/
+.reg-way{
+	padding: 0 15px;
+}
+
+.reg-way div{
+	text-align: center;
+	border-bottom: 0.5px solid #E1E1E1;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+.mui-popover .mui-table-view{
+	background: #FFF;
+}
+.number-btn{
+	width: 24px;
+	height:24px;
+	position: relative;
+	top: 7px;
+}
+.number{
+	width: 200px !important;
+	margin: 0 5px;
+	height: 30px !important;
+	border-radius: 6px;
+	font-size: 12px !important;
+	text-align: center;
+	color: #000000;
+}
+
+/*员工学习课程详情*/
+.course-wares-info{
+	position: relative;
+	top: -30px;
+	padding: 10px;
+}
+.course-wares-info .mui-table-view {
+	border-radius: 6px;
+}
+.course-wares-info .mui-table-view:before, .course-wares-info .mui-table-view:after{
+	height: 0;
+}
+.label{
+	display: inline-block;
+	background: #2E75B5;
+	color: #FFF;
+	border-radius: 4px 0 0 4px;
+	font-size: 10px;
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.triangle {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 10px solid #FFF;
+	border-bottom: 10px solid #FFF;
+	border-left: 10px solid #2E75B5;
+	position: relative;
+	top: 5px;
+	left: -5px;
+}
+.course-wares-info .mui-ellipsis{
+	padding: 5px 10px;
+	padding-right: 50px;
+	position: relative;
+}
+.course-wares-info .mui-ellipsis.isStudy{
+	color: #8C8C8C;
+}
+.course-wares-info .mui-ellipsis.isStudy i{
+	display: inline-block;
+	width: 54px;
+	height: 20px;
+}
+.course-wares-info .mui-ellipsis.isStudy .catalogue-time{
+	color: #8C8C8C;
+}
+.course-wares-info .catalogue-time{
+	position: absolute;
+	float: right;
+	right: 10px;
+	top: 10px
+}
+
+/*支付方式*/
+.mode_of_payment{
+	text-align: center;
+}
+.mode_of_payment p{
+	font-size: 14px;
+	color: #000000;
+}
+.mode_of_payment img{
+	width: 40px;
+	margin: 15px 0 5px 0;
+}
+
+/*iphone5*/
+@media screen and (max-width:320px) {
+
+}

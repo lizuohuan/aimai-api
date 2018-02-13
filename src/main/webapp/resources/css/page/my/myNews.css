@@ -1,0 +1,42 @@
+.isChecked{
+	color: #999999 !important;
+}
+.not-data{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 12px;
+	color: #999999;
+	display: none;
+}
+.mui-content{
+	padding-bottom: 0px;
+}
+.news{
+	padding: 15px;
+	padding-bottom: 0px;
+}
+.news-bg{
+	background: #FFFFFF;
+	border-radius: 6px;
+	width: 100%;
+	padding: 15px;
+}
+.news-title{
+	font-size: 14px;
+	color: #000000;
+}
+.news-time{
+	font-size: 13px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+.news-context{
+	font-size: 14px;
+	color: #000000;
+}
+
+/*覆盖mui 下拉列表的样式*/
+.mui-table-view{
+	background: inherit;
+}
+.mui-table-view:before,.mui-table-view:after{height: 0px;}

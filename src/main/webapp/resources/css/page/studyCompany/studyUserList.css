@@ -1,0 +1,204 @@
+
+body{
+	overflow: hidden;
+}
+.allSelect{
+	padding: 10px;
+	position: relative;
+	font-size: 13px;
+}
+.allSelect input[type=checkbox]{
+	position: relative;
+	right: inherit;
+	top: 2px !important;
+	left: 5px;
+	margin-right: 10px;
+}
+.top-bar{
+	padding: 15px;
+	position: fixed;
+	z-index: 99;
+	background: #F6F9FE;
+	top: 0;
+	width: 100%;
+}
+.top-bar img {
+	width: 15px;
+	margin-bottom: 15px;
+}
+.title{
+	font-size: 16px;
+	color: #2E75B5;
+}
+.hint{
+	color: #999999;
+	font-size: 12px;
+}
+.mui-table-view{
+	background: inherit;
+}
+
+.mui-content{
+	padding-top: 105px;
+}
+#pullrefreshPerson .mui-table-view .mui-media-object{
+	height: 42px;
+	border-radius: 50%;
+	width: 42px;
+	display: inline-block;
+	background-size: cover !important;
+	background-position: center !important;
+}
+#pullrefreshPerson .mui-table-view .mui-table-view-cell:after{
+	left: 65px;
+}
+.mui-media-body{
+	color: #000000;
+}
+.name{
+	font-size: 13px;
+}
+.course-name{
+	color: #999999;
+	font-size: 12px;
+}
+
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0;
+}
+.mui-col-xs-4{
+	text-align: right;
+	padding-right: 15px;
+}
+.pass-Exam{
+	background: #2E75B5;
+	color: #FFF;
+	font-size: 12px;
+	padding: 3px 6px;
+	border-radius: 4px;
+	position: relative;
+	top: 10px;
+}
+.pass-not-Exam{
+	background: #CFCFCF;
+	color: #FFF;
+	font-size: 12px;
+	padding: 3px 6px;
+	border-radius: 4px;
+	position: relative;
+	top: 10px;
+}
+.hasBeenLearning{
+	color: #CFCFCF;
+	font-size: 12px;
+	position: relative;
+	top: 10px;
+}
+.hasBeenLearning span{
+	color: #2E75B5;
+	margin: 0 5px;
+}
+
+/*搜索*/
+.mui-bar-nav, .tab-bottom{
+	background: #F6F9FE;
+	border: none !important;
+}
+.mui-bar .mui-btn-link{
+	color: #2E75B5;
+}
+.mui-indexed-list-search{
+	background: #FFF;
+	padding: 10px;
+	height: initial !important;
+	border: none !important;
+}
+.mui-indexed-list-search input{
+	background-color: #FFF !important;
+	border: 1px solid #e1e1e1;
+	color: #000;
+	font-size: 12px;
+	border-radius: 4px !important;
+}
+.mui-search .mui-placeholder {
+	font-size: 12px;
+}
+.mui-search .mui-placeholder .mui-icon{
+	font-size: 18px;
+	margin-right: 10px;
+}
+.mui-search .mui-placeholder{
+	top: 10px
+}
+.mui-indexed-list-search.mui-active:before{
+	font-size: 18px;
+	left:20px;
+	color: #999999;
+}
+.mui-input-row.mui-search .mui-icon-clear{
+	top: 16px;
+	right: 10px;
+}
+.mui-indexed-list-group{
+	background-color: #F6F9FE !important;
+	font-size: 16px !important;
+	color: #000000;
+}
+.mui-indexed-list-bar{
+	background-color: #F6F9FE !important;
+}
+.mui-table-view-divider:before, .mui-table-view-divider:after{
+	height: 0;
+}
+.mui-table-view-cell:after, .mui-table-view-cell:before{
+	height: 0;
+}
+.mui-table-view:after, .mui-table-view:before{
+	height: 0;
+}
+.mui-indexed-list{
+	border: none !important;
+ 	background-color: #F6F9FE !important;
+}
+
+.user-info{
+	width: 100%;
+	position: relative;
+	padding-left: 50px;
+}
+.user-info .user-head{
+	background-size: cover !important;
+	background-position: center !important;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+}
+.user-info .user-name{
+	font-size: 14px;
+	color: #000000;
+}
+.user-info .user-phone{
+	font-size: 12px;
+	color: #999999;
+}
+.mui-table-view-cell.mui-checkbox.mui-left, .mui-table-view-cell.mui-radio.mui-left{
+	padding-left: 11px;
+}
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio]{
+	left: inherit;
+}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+	right: 50px;
+}
+.mui-table-view-cell.mui-checkbox input[type=checkbox], .mui-table-view-cell.mui-radio input[type=radio]{
+	top: 15px;
+}
+.mui-ios .mui-indexed-list-group, .mui-ios .mui-indexed-list-item, .mui-ios .mui-indexed-list-empty-alert{
+	padding-right: 15px !important;
+}

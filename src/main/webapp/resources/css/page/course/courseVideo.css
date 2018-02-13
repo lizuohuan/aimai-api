@@ -1,0 +1,323 @@
+
+#ppt img{
+	margin-bottom: 15px;
+}
+
+/*弹窗*/
+.mui-popover.mui-popover-action{
+	bottom: inherit;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%) !important;
+	-webkit-transform: translate(-50%, -50%) !important;
+	-moz-transform: translate(-50%, -50%) !important;
+	-os-transform: translate(-50%, -50%) !important;
+}
+.bg-popover{
+	margin: 15px 30px;
+	background: #FFF;
+	padding: 15px;
+	border-radius: 8px;
+}
+.popover-title{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 15px 0;
+}
+.popover-hint{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+}
+
+.popover-btn{
+	padding: 15px;
+}
+
+.return-btn {
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #2E75B5;
+	box-shadow: 0px 2px 6px 0px #2E75B5;
+	background: #2E75B5;
+	width: 120px;
+	text-align: center;
+}
+
+.return-btn:active,
+.return-btn:focus {
+	background: #2E75B5 !important;
+	border-color: #2E75B5 !important;
+}
+
+.yellow-btn{
+	padding: 10px;
+	border-radius: 6px;
+	color: #FFF;
+	border-color: #F7C03E;
+	box-shadow: 0px 2px 6px 0px #F7C03E;
+	background: #F7C03E;
+	width: 120px;
+	text-align: center;
+}
+
+.yellow-btn:active,
+.yellow-btn:focus {
+	background: #F7C03E !important;
+	border-color: #F7C03E !important;
+}
+/*end*/
+
+#pullrefreshComment{
+	padding-bottom: 50px !important;
+}
+.mui-slider-item .mui-content{
+	padding: 0 !important;
+}
+.mui-scroll{
+	padding: 15px;
+}
+.course-info{
+
+}
+#sliderSegmentedControl{
+	background: #FFF;
+}
+
+.mui-control-item{
+	padding: 10px 15px;
+	line-height: inherit !important;
+}
+.mui-control-item img{
+	width: 40px;
+	position: relative;
+	top: 4px;
+}
+.mui-control-item span{
+	position: relative;
+	font-size: 14px;
+}
+#sliderProgressBar {
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+	margin-top: -2px;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-color: #E1E1E1;
+	border-bottom: none;
+}
+.mui-slider .mui-slider-group .mui-slider-item{
+	height: inherit;
+}
+.introduce-title{
+	padding: 10px 0;
+}
+
+.introduce-title .perch{
+	display: inline-block;
+	width: 10px;
+	background: #2E75B5;
+	height: 20px;
+}
+.introduce-title .title{
+	position: relative;
+	top: -5px;
+	color:#000000;
+}
+.introduce-context{
+	padding: 0 15px 15px 15px;
+	text-indent: 2em;
+	color: #000000;
+}
+
+.mui-table-view{
+	background: inherit;
+}
+
+/*目录列表*/
+.mui-slider-item .mui-content{
+	padding: 15px;
+	height: inherit;
+}
+.catalogue{
+	color: #000000;
+	position: relative;
+	padding-bottom: 10px;
+}
+.catalogue-time{
+	position: absolute;
+	right: 0;
+	color: #999999;
+}
+.not-study{
+	color: #999999 !important;
+}
+
+/*评论列表*/
+.mui-table-view-cell{
+	padding: 15px 0;
+}
+.mui-table-view-cell>a:not(.mui-btn){
+	margin: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 0px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0;
+}
+.mui-table-view-cell:after{
+	left: 0;
+}
+.mui-table-view .mui-media, .mui-table-view .mui-media-body{
+	overflow: inherit;
+}
+.mui-table-view .mui-media-object{
+	border-radius: 50%;
+	width: 42px;
+	background-position: center !important;
+	background-size: cover !important;
+}
+.mui-ellipsis button{
+	color: #000000;
+	display: inline-block;
+	width: 100%;
+	background: inherit;
+	text-align: left;
+	padding: 0;
+}
+.mui-ellipsis button:active, .mui-ellipsis button:focus{
+	background: inherit;
+	color: #000000;
+}
+.comment-time{
+	color: #999999;
+	font-size: 12px;
+}
+.comment-context{
+	color: #000000;
+	padding-top: 10px;
+}
+#commentList .mui-table-view-cell>a:not(.mui-btn){
+	white-space:inherit;
+}
+.mui-table-view-cell.mui-active{
+	background-color: inherit;
+}
+
+/*发布评论*/
+.comment-bar{
+	background: #F3F3F4;
+	border-top: 1px solid #E1E1E1;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	z-index:9;
+	width: 100%;
+	display: none;
+}
+.comment-bar .user-avatar{
+	width: 32px;
+	height: 32px;
+	background-size: cover !important;
+	border-radius: 50%;
+	float: left;
+	background-position: center !important;
+}
+.comment-bar input {
+	height: 32px;
+	padding-left: 10px;
+	font-size: 12px;
+	color: #666666;
+	margin: 0;
+	width: 70%;
+	margin-left: 10px;
+}
+.comment-bar button {
+	height: 32px;
+	float: right;
+	margin: 0 10px;
+	background: #D0D0D0;
+	color: #FFF;
+}
+
+/*人脸提示窗*/
+.face-shade{
+	display: none;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	opacity: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.face-shade-bg{
+	position: absolute;
+	z-index: 999;
+	border-radius: 6px;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-os-transform: translate(-50%, -50%);
+	text-align: center;
+	background: #FFF;
+	padding: 15px;
+	width: 80%;
+}
+.face-shade-title{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding: 15px 0;
+}
+.face-shade-hint{
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+}
+.face-shade-btn{
+	padding: 15px;
+}
+
+.face-shade-btn button{
+	width: 100px;
+}
+
+/*iphone6*/
+@media screen and (max-width:375px) {
+	.comment-bar input {
+		width: 65%;
+	}
+}
+
+/*iphone5*/
+@media screen and (max-width:320px) {
+	.comment-bar input {
+		width: 60%;
+	}
+	.return-btn, .yellow-btn{
+		width: 110px;
+	}
+	.face-shade-btn button{
+		width: 100px;
+	}
+	.popover-btn{
+		padding: 15px 0;
+	}
+	.face-shade-btn{
+		padding: 15px 0;
+	}
+}

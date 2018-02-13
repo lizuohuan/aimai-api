@@ -1,0 +1,77 @@
+.course-cover{
+	height: 100px;
+	background-size: cover !important;
+	background-position: center !important;
+	width: 100%;
+}
+.mui-scroll{
+	padding: 0 7.5px;
+}
+.video-cover img {
+	border-radius: 6px;
+}
+
+.video-title {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.course-title {
+	border-top: 1px solid #E1E1E1;
+	margin-top: 10px;
+}
+
+.course-more {
+	float: right;
+	font-size: 14px;
+	position: relative;
+	top: 1px;
+	color: #999999;
+}
+
+.course-more:focus,
+.news-more:active {
+	color: #999999;
+}
+
+.course-more i {
+	color: #999999;
+	font-size: 16px;
+}
+.mui-col-xs-6 {
+	padding: 15px 7.5px;
+	padding-bottom: 0;
+}
+.mui-col-xs-6 img {
+	border-radius: 8px 8px 0 0;
+}
+.mui-col-xs-6 .course-list{
+	border-radius: 8px;
+	background: #FFF;
+}
+.mui-col-xs-6 .course-info{
+	padding: 10px;
+	padding-top: 0;
+}
+.list-num {}
+
+.list-num img {
+	float: left;
+	width: 16px;
+}
+
+.list-num .num {
+	color: #2E75B5;
+}
+
+.num-title {
+	margin-left: 5px;
+	color: #999999;
+}
+
+.money {
+	font-size: 16px;
+	font-weight: 600;
+	color: red;
+	margin-top: 5px;
+}

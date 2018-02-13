@@ -1,0 +1,112 @@
+
+.search-div{
+	padding: 10px;
+	background: #fff;
+	text-align: center;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	padding-right: 60px;
+}
+.search-div .mui-input-row{
+	height: inherit !important;
+}
+.mui-search .mui-placeholder{
+	text-align: left;
+	padding-left: 10px;
+}
+.search-div .search-input{
+	display: inline-block;
+	background: #FFF;
+	font-size: 12px;
+	border: 1px solid #E1E1E1;
+	padding: 5px;
+	width: 100%;
+	color: #999999;
+	text-align: left;
+	border-radius: 30px;
+	padding-left: 40px !important;
+	margin-bottom: 0;
+}
+.search-div .mui-placeholder span{
+	font-size: 12px;
+	margin-left: 5px;
+}
+.mui-icon-search:before{
+	font-size: 18px;
+}
+.mui-search.mui-active:before{
+	font-size: 18px;
+	left: 15px;
+	top: 25px;
+}
+.search-div .search-btn{
+	display: inline-block;
+	text-align: center;
+	width: 60px;
+	height: 33px;
+	line-height: 33px;
+	position: absolute;
+	color: #008752;
+	right: 0;
+	top: 10px;
+	font-size: 13px;
+}
+
+/*list商品排版*/
+.mui-table-view:after, .mui-table-view:before{
+	height: 0;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+.mui-table-view .mui-media-object{
+	max-width: 130px;
+	width: 130px;
+	height: 90px;
+	border-radius: 6px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+	width: 100%;
+}
+.list-title p{
+	color: #000000;
+}
+.list-num-bottom{
+	position: absolute;
+	bottom: 5px;
+}
+.money-bar{
+	position: absolute;
+	bottom: 10px;
+	color: red;
+	font-size: 14px;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -3px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+}
+
+.num-title{
+	position: relative;
+	top: -4px;
+	font-size: 12px;
+}

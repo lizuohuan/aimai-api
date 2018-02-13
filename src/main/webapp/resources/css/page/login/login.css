@@ -1,0 +1,103 @@
+.mui-content{
+	overflow: hidden;
+}
+.title {
+	margin-top: 50px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.title-sub {
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+
+.mui-input-row .mui-input-clear~.mui-icon-clear,
+.mui-input-row .mui-input-password~.mui-icon-eye,
+.mui-input-row .mui-input-speech~.mui-icon-speech {
+	line-height: 30px;
+}
+
+.mui-btn {
+	padding: 10px;
+	border-color: #2E75B5;
+	box-shadow: 0px 2px 6px 0px #2E75B5;
+	color: #FFF;
+	margin-top: 15px;
+}
+
+.mui-btn:focus,
+.mui-btn:active {
+	background-color: #2E75B5 !important;
+	border-color: #2E75B5;
+}
+
+.link-area {
+	display: block;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.link-area a:focus,
+.link-area a:active {
+	color: #999999;
+}
+
+.reg {
+	float: right;
+}
+
+.reg-way{
+	padding: 0 4px;
+}
+
+.reg-way div{
+	text-align: center;
+	border-bottom: 0.5px solid #E1E1E1;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+.reg-mode{
+	padding-top: 15px;
+}
+.reg-mode .reg-mode-title {
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+.reg-mode img{
+	width: 50px;
+	margin-bottom: 6px;
+}
+
+/*去掉mui li 选中背景颜色*/
+.mui-table-view-cell.mui-active{
+	background: inherit !important;
+}
+
+.qr-btn {
+	background: #0072e5;
+	color: #fff;
+	font-size: 12px;
+	width: inherit !important;
+	padding: 5px 10px !important;
+	border-color: #0072e5;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+	margin-top: 0;
+	box-shadow: none;
+}
+.qr-btn[disabled=disabled]{
+	background: #999999;
+	border-color: #999999;
+}

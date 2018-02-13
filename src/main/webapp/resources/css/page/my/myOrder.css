@@ -1,0 +1,236 @@
+body{
+	overflow: hidden; /*有局部滚动的避免两个滚动*/
+}
+.mui-table-view:first-child{
+	margin-top: 0 !important;
+}
+.mui-bar~.mui-content .mui-fullscreen {
+	top: 44px;
+	height: auto;
+}
+.mui-table-view .mui-media{
+	background: #FFF;
+}
+.mui-pull-top-tips {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin-left: -25px;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	z-index: 1;
+}
+
+.mui-bar~.mui-pull-top-tips {
+	top: 24px;
+}
+
+.mui-pull-top-wrapper {
+	width: 42px;
+	height: 42px;
+	display: block;
+	text-align: center;
+	background-color: #efeff4;
+	border: 1px solid #ddd;
+	border-radius: 25px;
+	background-clip: padding-box;
+	box-shadow: 0 4px 10px #bbb;
+	overflow: hidden;
+}
+
+.mui-pull-top-tips.mui-transitioning {
+	-webkit-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+
+.mui-pull-top-tips .mui-pull-loading {
+	/*-webkit-backface-visibility: hidden;
+            -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;*/
+	margin: 0;
+}
+
+.mui-pull-top-wrapper .mui-icon,
+.mui-pull-top-wrapper .mui-spinner {
+	margin-top: 7px;
+}
+
+.mui-pull-top-wrapper .mui-icon.mui-reverse {
+	/*-webkit-transform: rotate(180deg) translateZ(0);*/
+}
+
+.mui-pull-bottom-tips {
+	text-align: center;
+	background-color: #efeff4;
+	font-size: 15px;
+	line-height: 40px;
+	color: #777;
+	margin-top: 10px;
+}
+
+.mui-pull-top-canvas {
+	overflow: hidden;
+	background-color: #fafafa;
+	border-radius: 40px;
+	box-shadow: 0 4px 10px #bbb;
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.mui-pull-top-canvas canvas {
+	width: 40px;
+}
+
+/*滑条过度*/
+#sliderProgressBar{
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+
+/*覆盖标题*/
+.mui-segmented-control .mui-control-item{
+	line-height: 50px;
+}
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-color: #E1E1E1;
+}
+
+body,html,.mui-content{
+	height: 100%;
+	background: #FFFFFF;
+	padding-bottom: 0;
+}
+.mui-content{
+	background: #F6F9FE;
+	padding-bottom: 60px;
+}
+.mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 15px;
+}
+.mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: -15px;
+}
+.order-loading{
+	text-align: center;
+}
+.order-loading img{
+	width: 100px !important;
+}
+
+.list-title-stay{
+	font-size: 14px;
+	color: #2E75B5;
+}
+.list-title-ok{
+	font-size: 14px;
+	color: #000000;
+}
+
+/*list商品排版*/
+.mui-table-view {
+	background: inherit;
+}
+.mui-slider .mui-slider-group .mui-slider-item .mui-table-view:after, .mui-slider .mui-slider-group .mui-slider-item .mui-table-view:before{
+	height: 1px !important;
+	background: #E1E1E1 !important;
+}
+.mui-table-view .mui-media-object{
+	display: inline-block;
+	max-width: 120px;
+	width: 120px;
+	height: 90px;
+	border-radius: 6px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+.mui-table-view li{
+	background: #FFF;
+}
+.list-title{
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 6px !important;
+}
+.list-price{
+	font-size: 14px;
+	font-weight: 500;
+	color: red;
+	margin-bottom: 6px !important;
+}
+.list-price .list-num{
+	float: right;
+	color: #999999;
+	font-size: 12px;
+}
+/*付款按钮*/
+.payment-btn{
+	padding: 5px 10px;
+	border-color: #2E75B5;
+	color: #2E75B5;
+	margin-top: 5px;
+}
+.payment-btn:focus, .payment-btn:active{
+	border-color: #2E75B5;
+	color: #FFFFFF;
+	background: #2E75B5 !important;
+}
+
+/*删除按钮*/
+.delete-btn{
+	padding: 5px 10px;
+	border-color: #999999;
+	color: #999999;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+/*支付方式*/
+.mode_of_payment{
+	text-align: center;
+}
+.mode_of_payment p{
+	font-size: 14px;
+	color: #000000;
+}
+.mode_of_payment img{
+	width: 40px;
+	margin: 15px 0 5px 0;
+}
+/*弹窗title*/
+.reg-way{
+	padding: 0 15px;
+}
+
+.reg-way div{
+	text-align: center;
+	border-bottom: 0.5px solid #E1E1E1;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000;
+}
+.mui-popover .mui-table-view{
+	background: #FFF;
+}
+.number-btn{
+	width: 24px;
+	height:24px;
+	position: relative;
+	top: 7px;
+}
+.number{
+	width: 200px !important;
+	margin: 0 5px;
+	height: 30px !important;
+	border-radius: 6px;
+	font-size: 12px !important;
+	text-align: center;
+	color: #000000;
+}

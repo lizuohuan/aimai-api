@@ -1,0 +1,213 @@
+
+.mui-slider .mui-segmented-control.mui-segmented-control-inverted~.mui-slider-group .mui-slider-item{
+	border-top: none;
+}
+.mui-content, body, html{
+	overflow: hidden;
+}
+.mui-content{
+	padding-bottom: 110px;
+}
+.mui-slider{
+	padding-bottom: 60px;
+}
+.mui-segmented-control .mui-control-item{
+	line-height: 50px;
+}
+#sliderProgressBar {
+	transition: all 0.3s;
+	background: #2E75B5;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+.mui-table-view .mui-media-object{
+	max-width: 100px;
+	height: 130px;
+	border-radius: 6px;
+}
+#pullrefreshCourse .mui-table-view{
+	background: inherit;
+}
+#pullrefreshCourse .mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	background: #FFF;
+	margin: 0;
+	border-radius: 6px;
+	padding-bottom: 10px;
+}
+#pullrefreshCourse .mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+#pullrefreshCourse .mui-table-view .mui-media, .mui-table-view .mui-media-body{
+	overflow: auto;
+}
+#pullrefreshCourse .mui-table-view-cell:after{
+	height:0;
+}
+.title{
+	font-size: 14px;
+	color: #000000;
+	position: relative;
+	top: 5px;
+}
+.course-info{
+	padding-top: 40px;
+}
+.exercises-bar{
+	color: #999999;
+	font-size: 12px;
+}
+.exercises-bar span:nth-child(1) {
+	margin-right: 10px;
+}
+.exercises-bar span:nth-child(2) {
+	 margin-right: 10px;
+ }
+
+.list-num{
+	position: absolute;
+	bottom: 5px;
+	color: #000000;
+}
+
+.list-num img{
+	width: 16px !important;
+	position: relative;
+	top: -5px;
+}
+
+.list-num .num{
+	color: #2E75B5;
+	margin: 0 5px;
+}
+.num-title{
+	position: relative;
+	top: -8px;
+	font-size: 12px;
+}
+
+/*进度条*/
+.study-progress{
+	width: 100%;height: 6px;
+	background: #fbe49b;
+	border-radius: 4px;
+	margin: 6px 0;
+}
+.study-progress span{
+	display: inline-block;
+	height: 100%;
+	border-radius: 4px;
+	width: 0%;
+	background: -webkit-linear-gradient(left, #7bcff3, #075399);
+	background: -o-linear-gradient(left, #7bcff3, #075399);
+	background: -moz-linear-gradient(left, #7bcff3, #075399); /* Firefox 3.6 - 15 */
+	max-width: 100%;
+}
+.mui-table-view-cell:after{
+	background-color: #E1E1E1;
+}
+
+.haveLearned{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 70px !important;
+}
+
+
+/*考题*/
+#page2 .mui-content{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#page2 .mui-table-view{
+	border-radius: 6px;
+	margin-top: 10px;
+}
+#page2 .mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 5px;
+}
+#page2 .mui-table-view-chevron .mui-table-view-cell>a:not(.mui-btn){
+	margin-right: 0;
+}
+#page2 .mui-table-view img{
+	width: 30px;
+	float: left;
+	margin-right: 5px;
+}
+#page2 .mui-table-view .name{
+	font-size: 14px;
+	color: #000000;
+	position: relative;
+	top: 5px;
+}
+.right-img{
+	float: right;
+
+}
+.right-img img{
+	float: right !important;
+	width: 14px !important;
+	position: relative;
+	top: 8px;
+	margin-right: 0 !important;
+}
+.right-name{
+	position: relative;
+	top: 4px;
+	color: #999999;
+	margin-right: 5px;
+}
+.haveToPractice{
+	font-size: 14px;
+	color: #999999;
+}
+.topic-num{
+	font-size: 30px;
+	font-weight:500;
+	color: #000000;
+}
+.topic-hint{
+	font-size: 12px;
+	color: #000000;
+}
+.rate{
+	float: right;
+
+}
+.percentage{
+	font-size: 30px;
+	font-weight:500;
+	color: #000000;
+}
+.statisticalRate-bar{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.wrong-num{
+	position: relative;
+	top: 5px;
+	font-size: 14px;
+	color: #999999;
+}
+
+
+.mui-media-object{
+	background-size: cover;
+	width: 100px;
+	background-position: center;
+}
+
+/*iphone5*/
+@media screen and (max-width:320px) {
+	.mui-media-object{
+		width: 70px !important;
+		height: 90px !important;
+	}
+	.course-info{
+		padding-top: 8px;
+	}
+}
